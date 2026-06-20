@@ -94,6 +94,8 @@ npx wrangler login
 npm run deploy
 ```
 
+For CI or other non-interactive environments, set `CLOUDFLARE_API_TOKEN` before running `npm run deploy`.
+
 ## Notes
 
 - Only absolute `http://` and `https://` URLs are accepted in the public `url` parameter.
